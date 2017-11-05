@@ -1,0 +1,61 @@
+*{
+margin-top: 0px;
+}
+#headingStyle {
+	margin-bottom: 10px; 
+	background-color : #2F4F4F;
+	height: 50px;
+	border-bottom:1px solid red;
+	color: #00FFFF;
+	text-align: center;
+	background-color: #2F4F4F;
+	font-weight: bold;
+	font-size: 25px;
+	padding-top: 15px;
+}
+
+body {
+	background-color: #eaf9f4;
+	width:100%;
+	position: fixed;
+	
+}
+
+#container {
+	margin-top: 10px;
+	margin-right: 250px;
+	margin-left: 250px;
+	border: 2px solid black;
+	width: 650px;
+	height: 200px;
+}
+
+table {
+	border-collapse: collapse;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+td {
+	padding: 10px;
+	padding-bottom: 0px;
+	text-align: right;
+}
+
+input[type='date'] {
+	width: 150px;
+}
+
+.date {
+	text-align: left;
+}
+
+td select {
+	padding: 5px;
+	width: 100px;
+	border-bottom-color: black;
+	text-align: left;
+}
+.error{
+	background-color: red;
+}
